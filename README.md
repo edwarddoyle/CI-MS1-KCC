@@ -1,6 +1,6 @@
 # ![logo](assets/docs/logo.png) Kilmacow Community Clean-up
 
-[View the live project here.](https://www.google.ie)
+[View the live project here.](https://www.google.ie){target="_blank"}
 
 This website was undertaken as my submission for the User Centric Frontend Development Milestone Project (MS1).
 
@@ -91,11 +91,11 @@ This website was undertaken as my submission for the User Centric Frontend Devel
 
 [Balsamiq Wireframes](https://balsamiq.com/wireframes/) was used to wireframe the website.
 
->* [Home Section](assets/docs/home.pdf)
->* [About Section](assets/docs/about.pdf)
->* [Events Section](assets/docs/events.pdf)
->* [Gallery Section](assets/docs/gallery.pdf)
->* [Contact Section](assets/docs/contact.pdf)
+>* [Home Section](assets/docs/home.pdf){target="_blank"}
+>* [About Section](assets/docs/about.pdf){target="_blank"}
+>* [Events Section](assets/docs/events.pdf){target="_blank"}
+>* [Gallery Section](assets/docs/gallery.pdf){target="_blank"}
+>* [Contact Section](assets/docs/contact.pdf){target="_blank"}
 
 [Back to Top](<#Table of Contents>)
 
@@ -110,7 +110,7 @@ This website was undertaken as my submission for the User Centric Frontend Devel
 
 #### Typography
 
->The font used throughout the website is Atkinson Hyperlegible, with Sans-Serif used as a fallback. The font weight and font size css attributes are used with the font for emphasis and hierarchy. Atkinson Hyperlegible was chosen, as it focuses on letterform distinction to increase character recognition, ultimately improving readability. You can find out more [here](<https://www.brailleinstitute.net/freefont>)
+>The font used throughout the website is Atkinson Hyperlegible, with Sans-Serif used as a fallback. The font weight and font size css attributes are used with the font for emphasis and hierarchy. Atkinson Hyperlegible was chosen, as it focuses on letterform distinction to increase character recognition, ultimately improving readability. You can find out more [here](<https://www.brailleinstitute.net/freefont>){target="_blank"}
 
 #### Images
 

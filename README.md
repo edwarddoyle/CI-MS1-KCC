@@ -1,4 +1,4 @@
-# ![logo](assets\docs\logo.png) Kilmacow Community Clean-up
+# ![logo](assets/docs/logo.png) Kilmacow Community Clean-up
 
 [View the live project here.](https://www.google.ie)
 
@@ -103,7 +103,7 @@ This website was undertaken as my submission for the User Centric Frontend Devel
 
 #### Colours
 
->![font](assets\docs\font.png) #00202a is the main font colour. The client requested the text colour in the logo be used, however, the logo font colour did not provide enough contrast against the white background. #00202a is half way between black and the logo font colour.
+>![font](assets/docs/font.png) #00202a is the main font colour. The client requested the text colour in the logo be used, however, the logo font colour did not provide enough contrast against the white background. #00202a is half way between black and the logo font colour.
 
 >The client requested a clean colour scheme on the website. White was chosen as the predominant colour with highlights provided by shadows and hints of colours taken from the client's logo. The main colours of the logo are:
 ![Colours](assets/docs/colours.png)

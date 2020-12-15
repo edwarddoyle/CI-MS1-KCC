@@ -8,32 +8,32 @@ This website was undertaken as my submission for the User Centric Frontend Devel
 
 ## Table of Contents
 
-* [Overview](<#Overview 👀>)
-* [UX](<#UX 👪>)
-  * [User Stories](<#User Stories 💬>)
+* [Overview](<#Overview>)
+* [UX](<#UX>)
+  * [User Stories](<#User Stories>)
   * [Strategy](#Strategy)
-  * [Scope](#Strategy)
-  * [Structure](#Strategy)
-    * [Project Goals](<#Project Goals 🥇>)
-    * [Customer Goals](<#Customer Goals 🥇>)
+  * [Scope](#Scope)
+  * [Structure](#Structure)
+    * [Project Goals](<#Project Goals>)
+    * [Customer Goals](<#Customer Goals>)
   * [Skeleton](#Skeleton)
     * [Wireframes](<#Wireframes>)
-  * [Surface](#Strategy)
+  * [Surface](#Surface)
     * [Colours](<#Colours>)
     * [Typography](<#Typography>)
     * [Images](<#Images>)
 * [Features](#Features)
 * [Technologies Used](#Technologies)
 
-## Overview 👀
+## Overview
 
 >The Kilmacow Community Clean-up (KCC) page was developed to provide visitors with an overview of the events and activities carried out by the KCC. The KCC group currently advertises their events and activities in a local newsletter (digital and print) and through their social media channels. Recently KCC members have raised concerns over attendance figures at their events. It was identified that the decrease was due to previous attendees not having access to information about dates and times of events, as many of them were not on social media. A website was proposed to solve this issue. The KCC outlined simplicity and accessibility to be the core features of the website. The website would need to work on both mobile and desktop as the age of members ranged from 5 years old to 80 years old.
 
 [Back to Top](<#Table of Contents>)
 
-## UX 👪
+## UX
 
-### User Stories 💬
+### User Stories
 
 >#### First Time Vistiors
 
@@ -57,7 +57,7 @@ This website was undertaken as my submission for the User Centric Frontend Devel
 
 ### Strategy
 
->#### Project goals 🥇
+>#### Project goals
 
 * Encourage more community members to events and activities by providing visitors with information about upcoming events and activities.
 
@@ -65,7 +65,7 @@ This website was undertaken as my submission for the User Centric Frontend Devel
 
 * Communicate effectivley the importance of 'Pride of Place' and the goals of the KCC
 
->#### Customer goals 🥇
+>#### Customer goals
 
 * Enable visitors to find information on upcoming community events
 
@@ -79,7 +79,8 @@ This website was undertaken as my submission for the User Centric Frontend Devel
 
 ### Scope
 
-[Back to Top](<#Table of Contents>)
+
+[Back to Top](#Table of Contents)
 
 ### Structure
 
@@ -89,13 +90,17 @@ This website was undertaken as my submission for the User Centric Frontend Devel
 
 #### Wireframes (pdf format)
 
+To open links in a new tab:
+![cmd](assets/docs/cmd.png) + click on ![mac](assets/docs/mac.png) 
+![ctrl](assets/docs/ctrl.png) + click on ![pc](assets/docs/windows.png) or ![linux](assets/docs/linux.png)
+
 [Balsamiq Wireframes](https://balsamiq.com/wireframes/) was used to wireframe the website.
 
->* [Home Section](assets/docs/home.pdf){target="_blank"}
->* [About Section](assets/docs/about.pdf){target="_blank"}
->* [Events Section](assets/docs/events.pdf){target="_blank"}
->* [Gallery Section](assets/docs/gallery.pdf){target="_blank"}
->* [Contact Section](assets/docs/contact.pdf){target="_blank"}
+>* [Home Section](assets/docs/home.pdf)
+>* [About Section](assets/docs/about.pdf)
+>* [Events Section](assets/docs/events.pdf)
+>* [Gallery Section](assets/docs/gallery.pdf)
+>* [Contact Section](assets/docs/contact.pdf)
 
 [Back to Top](<#Table of Contents>)
 

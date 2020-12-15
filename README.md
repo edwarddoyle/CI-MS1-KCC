@@ -1,35 +1,41 @@
 # ![logo](assets/docs/logo.png) Kilmacow Community Clean-up
 
-[View the live project here.](https://www.google.ie){target="_blank"}
+[View the live project here.](https://www.google.ie)
 
-This website was undertaken as my submission for the User Centric Frontend Development Milestone Project (MS1).
+To open links in a new tab:
+
+MAC : &nbsp; ![cmd](assets/docs/cmd.png) &nbsp; + &nbsp; 'click' 
+
+Windows / Linux : &nbsp; ![ctrl](assets/docs/ctrl.png)  &nbsp; + &nbsp; 'click'
+
+>This website was undertaken as my submission for the User Centric Frontend Development Milestone Project (MS1).
 
 ![Image]()
 
 ## Table of Contents
 
-* [Overview](<#Overview>)
-* [UX](<#UX>)
-  * [User Stories](<#User Stories>)
-  * [Strategy](#Strategy)
-  * [Scope](#Scope)
-  * [Structure](#Structure)
-    * [Project Goals](<#Project Goals>)
-    * [Customer Goals](<#Customer Goals>)
-  * [Skeleton](#Skeleton)
-    * [Wireframes](<#Wireframes>)
-  * [Surface](#Surface)
-    * [Colours](<#Colours>)
-    * [Typography](<#Typography>)
-    * [Images](<#Images>)
-* [Features](#Features)
-* [Technologies Used](#Technologies)
+* [Overview](<#overview>)
+* [UX](<#ux>)
+  * [User Stories](<#user-stories>)
+  * [Strategy](<#strategy>)
+  * [Scope](<#scope>)
+  * [Structure](<#structure>)
+    * [Project Goals](<#project-goals>)
+    * [Customer Goals](<#customer-goals>)
+  * [Skeleton](<#skeleton>)
+    * [Wireframes](<#wireframes>)
+  * [Surface](<#surface>)
+    * [Colours](<#colours>)
+    * [Typography](<#typography>)
+    * [Images](<#images>)
+* [Features](<#features>)
+* [Technologies Used](<#technologies>)
 
 ## Overview
 
 >The Kilmacow Community Clean-up (KCC) page was developed to provide visitors with an overview of the events and activities carried out by the KCC. The KCC group currently advertises their events and activities in a local newsletter (digital and print) and through their social media channels. Recently KCC members have raised concerns over attendance figures at their events. It was identified that the decrease was due to previous attendees not having access to information about dates and times of events, as many of them were not on social media. A website was proposed to solve this issue. The KCC outlined simplicity and accessibility to be the core features of the website. The website would need to work on both mobile and desktop as the age of members ranged from 5 years old to 80 years old.
 
-[Back to Top](<#Table of Contents>)
+[Back to Top](<#table-of-contents>)
 
 ## UX
 
@@ -53,7 +59,7 @@ This website was undertaken as my submission for the User Centric Frontend Devel
 
 * "I want to contact the KCC to suggest local areas that require attention and to suggest future activities"
 
-[Back to Top](<#Table of Contents>)
+[Back to Top](<#table-of-contents>)
 
 ### Strategy
 
@@ -75,25 +81,20 @@ This website was undertaken as my submission for the User Centric Frontend Devel
 
 * Increase newsletter subscribers and social media followers
 
-[Back to Top](<#Table of Contents>)
+[Back to Top](<#table-of-contents>)
 
 ### Scope
 
 
-[Back to Top](#Table of Contents)
+[Back to Top](<#table-of-contents>)
 
 ### Structure
 
-[Back to Top](<#Table of Contents>)
+[Back to Top](<#table-of-contents>)
 
 ### Skeleton
 
-#### Wireframes (pdf format)
-
-To open links in a new tab:
-![cmd](assets/docs/cmd.png) + click on ![mac](assets/docs/mac.png) 
-![ctrl](assets/docs/ctrl.png) + click on ![pc](assets/docs/windows.png) or ![linux](assets/docs/linux.png)
-
+#### Wireframes
 [Balsamiq Wireframes](https://balsamiq.com/wireframes/) was used to wireframe the website.
 
 >* [Home Section](assets/docs/home.pdf)
@@ -102,7 +103,7 @@ To open links in a new tab:
 >* [Gallery Section](assets/docs/gallery.pdf)
 >* [Contact Section](assets/docs/contact.pdf)
 
-[Back to Top](<#Table of Contents>)
+[Back to Top](<#table-of-contents>)
 
 ### Surface
 
@@ -115,14 +116,14 @@ To open links in a new tab:
 
 #### Typography
 
->The font used throughout the website is Atkinson Hyperlegible, with Sans-Serif used as a fallback. The font weight and font size css attributes are used with the font for emphasis and hierarchy. Atkinson Hyperlegible was chosen, as it focuses on letterform distinction to increase character recognition, ultimately improving readability. You can find out more [here](<https://www.brailleinstitute.net/freefont>){target="_blank"}
+>The font used throughout the website is Atkinson Hyperlegible, with Sans-Serif used as a fallback. The font weight and font size css attributes are used with the font for emphasis and hierarchy. Atkinson Hyperlegible was chosen, as it focuses on letterform distinction to increase character recognition, ultimately improving readability. You can find out more [here](<https://www.brailleinstitute.net/freefont>)
 
 #### Images
 
-[Back to Top](<#Table of Contents>)
+[Back to Top](<#table-of-contents>)
 
 ## Features
 
-[Back to Top](<#Table of Contents>)
+[Back to Top](<#table-of-contents>)
 
-## Technologies 🔧
+## Technologies

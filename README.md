@@ -1,45 +1,123 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# ![logo](\assets\docs\logo.png) Kilmacow Community Clean-up
 
-Welcome edwarddoyle,
+[View the live project here.](https://www.google.ie)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+This website was undertaken as my submission for the User Centric Frontend Development Milestone Project (MS1).
 
-## Gitpod Reminders
+![Image]()
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Table of Contents
 
-`python3 -m http.server`
+* [Overview](<#Overview 👀>)
+* [UX](<#UX 👪>)
+  * [User Stories](<#User Stories 💬>)
+  * [Strategy](#Strategy)
+  * [Scope](#Strategy)
+  * [Structure](#Strategy)
+    * [Project Goals](<#Project Goals 🥇>)
+    * [Customer Goals](<#Customer Goals 🥇>)
+  * [Skeleton](#Skeleton)
+    * [Wireframes](<#Wireframes>)
+  * [Surface](#Strategy)
+    * [Colours](<#Colours>)
+    * [Typography](<#Typography>)
+    * [Images](<#Images>)
+* [Features](#Features)
+* [Technologies Used](#Technologies)
 
-A blue button should appear to click: *Make Public*,
+## Overview 👀
 
-Another blue button should appear to click: *Open Browser*.
+>The Kilmacow Community Clean-up (KCC) page was developed to provide visitors with an overview of the events and activities carried out by the KCC. The KCC group currently advertises their events and activities in a local newsletter (digital and print) and through their social media channels. Recently KCC members have raised concerns over attendance figures at their events. It was identified that the decrease was due to previous attendees not having access to information about dates and times of events, as many of them were not on social media. A website was proposed to solve this issue. The KCC outlined simplicity and accessibility to be the core features of the website. The website would need to work on both mobile and desktop as the age of members ranged from 5 years old to 80 years old.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+[Back to Top](<#Table of Contents>)
 
-A blue button should appear to click: *Make Public*,
+## UX 👪
 
-Another blue button should appear to click: *Open Browser*.
+### User Stories 💬
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+>#### First Time Vistiors
 
-## Updates Since The Instructional Video
+* "I would like to view information about the KCC and possibly follow the group on a social media platform"
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* "I would like to see photos of previous events / activities"
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* "I would like to subscribe to a newsletter or mailing list that could inform me of upcoming events / activities"
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+>#### Returning Visitors
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+* "I would like to see if any events have been added / updated since my last visit"
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+* "I would like to contact the KCC group about getting involved"
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+>#### Frequent Visitors
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* "I want to contact the KCC to suggest local areas that require attention and to suggest future activities"
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+[Back to Top](<#Table of Contents>)
 
---------
+### Strategy
 
-Happy coding!
+>#### Project goals 🥇
+
+* Encourage more community members to events and activities by providing visitors with information about upcoming events and activities.
+
+* Clean UI / UX for simple navigation. Visitors are from a traditionally non-web-savvy demographic.
+
+* Communicate effectivley the importance of 'Pride of Place' and the goals of the KCC
+
+>#### Customer goals 🥇
+
+* Enable visitors to find information on upcoming community events
+
+* Allow visitors to easily contact group admin about possible future events and report areas that need attention (cleaning, planting, painting)
+
+* Easy to navigate website
+
+* Increase newsletter subscribers and social media followers
+
+[Back to Top](<#Table of Contents>)
+
+### Scope
+
+[Back to Top](<#Table of Contents>)
+
+### Structure
+
+[Back to Top](<#Table of Contents>)
+
+### Skeleton
+
+#### Wireframes (pdf format)
+
+[Balsamiq Wireframes](https://balsamiq.com/wireframes/) was used to wireframe the website.
+
+>* [Home Section](assets/docs/home.pdf)
+>* [About Section](assets/docs/about.pdf)
+>* [Events Section](assets/docs/events.pdf)
+>* [Gallery Section](assets/docs/gallery.pdf)
+>* [Contact Section](assets/docs/contact.pdf)
+
+[Back to Top](<#Table of Contents>)
+
+### Surface
+
+#### Colours
+
+>![font](\assets\docs\font.png) #00202a is the main font colour. The client requested the text colour in the logo be used, however, the logo font colour did not provide enough contrast against the white background. #00202a is half way between black and the logo font colour.
+
+>The client requested a clean colour scheme on the website. White was chosen as the predominant colour with highlights provided by shadows and hints of colours taken from the client's logo. The main colours of the logo are:
+![Colours](assets/docs/colours.png)
+
+#### Typography
+
+>The font used throughout the website is Atkinson Hyperlegible, with Sans-Serif used as a fallback. The font weight and font size css attributes are used with the font for emphasis and hierarchy. Atkinson Hyperlegible was chosen, as it focuses on letterform distinction to increase character recognition, ultimately improving readability. You can find out more [here](<https://www.brailleinstitute.net/freefont>)
+
+#### Images
+
+[Back to Top](<#Table of Contents>)
+
+## Features
+
+[Back to Top](<#Table of Contents>)
+
+## Technologies 🔧

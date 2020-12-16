@@ -137,7 +137,8 @@ The website is a single page website. Upon navigating to the site, the visitor w
 
 #### Images
 
->All images for the website were provided by The Kilmacow Community Clean-up Group. A new logo was created for the website as the existing logo did not work for web or print. I gave the KCC group access to my [Adobe Stock](#https://stock.adobe.com/) account, so they could select some stock photos if required. The group found a logo they liked and I modified it to suit their requirements. The licence for the logo is available [here](<#assets/docs/logolicence.pdf>).
+>All images for the website were provided by The Kilmacow Community Clean-up Group. A new logo was created for the website as the existing logo did not work for web or print. I gave the KCC group access to my [Adobe Stock](https://stock.adobe.com/) account, so they could select some stock photos if required. The group found a logo they liked and I modified it to suit their requirements. The licence for the logo is available 
+[here](assets/docs/logolicence.pdf).
 
 [Back to Top](<#table-of-contents>)
 
@@ -157,7 +158,7 @@ To use this template:
 4.	The template workspace should now open in Gitpod 
 >*The Gitpod browser extension must be installed for this option to become visible. Gitpod provide a browser extension for Chrome [here](#https://chrome.google.com/webstore/detail/gitpod-dev-environments-i/dodmmooeoklaejobgleioelladacbeki) and for Firefox [here](#https://addons.mozilla.org/en-US/firefox/addon/gitpod/)
 ### Hosting
-This website is hosted on [Github Pages](#https://pages.github.com/). To deploy the live site, I followed these steps:
+This website is hosted on [Github Pages](https://pages.github.com/). To deploy the live site, I followed these steps:
 1.	Navigate to the Github repository
 2.	Click the ‘Settings’ tab
 3.	In the Github pages section, select Master Branch as the source and click save.

@@ -1,6 +1,6 @@
 # ![logo](assets/docs/logo.png) Kilmacow Community Clean-up
 
-[View the live project here.](https://www.google.ie)
+[View the live project here.](https://edwarddoyle.github.io/CI-MS1-KCC/)
 
 To open links in a new tab:
 
@@ -18,10 +18,10 @@ Windows / Linux : &nbsp; ![ctrl](assets/docs/ctrl.png)  &nbsp; + &nbsp; 'click'
 * [UX](<#ux>)
   * [User Stories](<#user-stories>)
   * [Strategy](<#strategy>)
-  * [Scope](<#scope>)
-  * [Structure](<#structure>)
     * [Project Goals](<#project-goals>)
     * [Customer Goals](<#customer-goals>)
+  * [Scope](<#scope>)
+  * [Structure](<#structure>)
   * [Skeleton](<#skeleton>)
     * [Wireframes](<#wireframes>)
   * [Surface](<#surface>)
@@ -30,6 +30,10 @@ Windows / Linux : &nbsp; ![ctrl](assets/docs/ctrl.png)  &nbsp; + &nbsp; 'click'
     * [Images](<#images>)
 * [Features](<#features>)
 * [Technologies Used](<#technologies>)
+* [Deployment](<#deployment>)
+  * [Creation](<#creation>)
+  * [Hosting](<#hosting>)
+  * [Local](<#local>)
 
 ## Overview
 
@@ -90,6 +94,19 @@ Windows / Linux : &nbsp; ![ctrl](assets/docs/ctrl.png)  &nbsp; + &nbsp; 'click'
 
 ### Structure
 
+The website is a single page website. Upon navigating to the site, the visitor will be greeted with a landing page style section, followed by four content sections. These content sections include: About section, Events Section, Gallery section and Contact section, with a footer placed at the bottom of the website.
+#### Home: 
+>The homepage section of the site contains a full width hero image, with welcome text and quick navigation buttons in the foreground, one that leads directly to the About section and one that leads directly to the Contact section. This will allow returning and frequent visitors to navigate quickly to the contact section if they wish to contact the group without navigating through content they have seen previously. During discussions with the client, they identified websites that they found aesthetically pleasing, mentioning specifically the use of a hero image to grab visitor’s attention immediately, especially first-time visitors.
+#### About: 
+>The about section contains a block of text describing the Kilmacow Community Clean-up Group. The client hopes this text will encourage new users to sign up for the newsletter or follow the group on one of it’s social media channels. The Kilmacow Community Clean-up Group also hopes the message this text conveys reinforces the importance of community inclusion and ‘Pride of Place’. This section will also include a large image, with the intention of ‘breaking’ up the section of text and providing a splash of colour to the section.
+#### Events:
+>The Events section will contain a block of text similar to the About section, but this text will outline the events and activities that are organised by the KCC. It is hoped that the message conveyed in this section will encourage new and returning visitors to attend one of the events or activities organised by the KCC. The events section will also contain cards, initially outlining overview information about upcoming events, such as meeting location, time and invitees. The overview cards can be expanded to display more in-depth information.
+#### Gallery:
+
+
+#### Contact: 
+>The Contact section contains a dual-purpose form, it can be used as a method of contacting the KCC, but also it includes a tick box for new and returning visitors to sign up for the KCC newsletter. The form will allow visitors include their name and email address, a text area will provide a method for visitors to include a personalised message. The contact section also includes the contact details for the KCC, such as email address, postal address and contact number. The website footer sits below the contact section, this includes a copyright message and the year.
+
 [Back to Top](<#table-of-contents>)
 
 ### Skeleton
@@ -120,6 +137,8 @@ Windows / Linux : &nbsp; ![ctrl](assets/docs/ctrl.png)  &nbsp; + &nbsp; 'click'
 
 #### Images
 
+>All images for the website were provided by The Kilmacow Community Clean-up Group. A new logo was created for the website as the existing logo did not work for web or print. I gave the KCC group access to my [Adobe Stock](#https://stock.adobe.com/) account, so they could select some stock photos if required. The group found a logo they liked and I modified it to suit their requirements. The licence for the logo is available [here](<#assets/docs/logolicence.pdf>).
+
 [Back to Top](<#table-of-contents>)
 
 ## Features
@@ -127,3 +146,26 @@ Windows / Linux : &nbsp; ![ctrl](assets/docs/ctrl.png)  &nbsp; + &nbsp; 'click'
 [Back to Top](<#table-of-contents>)
 
 ## Technologies
+
+## Deployment
+### Creation
+The project was created using the Code Institute workspace template, available [here](#https://github.com/Code-Institute-Org/gitpod-full-template).
+To use this template:
+1.	Click use this template
+2.	Name the new repository and select ‘Create repository from template’
+3.	Navigate to the newly created repository and select Gitpod*
+4.	The template workspace should now open in Gitpod 
+>*The Gitpod browser extension must be installed for this option to become visible. Gitpod provide a browser extension for Chrome [here](#https://chrome.google.com/webstore/detail/gitpod-dev-environments-i/dodmmooeoklaejobgleioelladacbeki) and for Firefox [here](#https://addons.mozilla.org/en-US/firefox/addon/gitpod/)
+### Hosting
+This website is hosted on [Github Pages](#https://pages.github.com/). To deploy the live site, I followed these steps:
+1.	Navigate to the Github repository
+2.	Click the ‘Settings’ tab
+3.	In the Github pages section, select Master Branch as the source and click save.
+4.	The site URL is now displayed*
+>*The site can take a period of time to go live
+### Local
+To run this project locally there are two options through Github (clone or download). To clone or download, navigate to the repository, click the Code button and select Clone or Download:
+1.	Clone: This option provides you with a URL that can be used in your local IDE. Use the 'git clone' command followed by the provided URL to create a clone of the project locally.
+2.	Download: This option provides a .zip file that can be downloaded, extracted and deployed to a local webserver or edited in your IDE.
+
+[Back to Top](<#table-of-contents>)

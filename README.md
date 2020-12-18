@@ -144,19 +144,33 @@ The website is a single page website. Upon navigating to the site, the visitor w
 
 ## Features
 
+Features:
+* Responsive Single Page Website built with HTML, CSS and Bootstrap
+* Fixed navigation bar for easy navigation as per client’s request
+* Call to action button on homepage for quick navigation to about and contact sections
+* Social media links present throughout, without being too obtrusive
+* Expandable and collapsible event cards
+* Responsive image gallery 
+* Contact form with HTML validation, radio button is also present for subscribe to newsletter function
+
+Features to implement:
+* Add to calendar button on events cards
+* Contact form backend
+* Cookie notification pop up and privacy policy 
+
 [Back to Top](<#table-of-contents>)
 
 ## Technologies
 
 ## Deployment
 ### Creation
-The project was created using the Code Institute workspace template, available [here](#https://github.com/Code-Institute-Org/gitpod-full-template).
+The project was created using the Code Institute workspace template, available [here](https://github.com/Code-Institute-Org/gitpod-full-template).
 To use this template:
 1.	Click use this template
 2.	Name the new repository and select ‘Create repository from template’
 3.	Navigate to the newly created repository and select Gitpod*
 4.	The template workspace should now open in Gitpod 
->*The Gitpod browser extension must be installed for this option to become visible. Gitpod provide a browser extension for Chrome [here](#https://chrome.google.com/webstore/detail/gitpod-dev-environments-i/dodmmooeoklaejobgleioelladacbeki) and for Firefox [here](#https://addons.mozilla.org/en-US/firefox/addon/gitpod/)
+>*The Gitpod browser extension must be installed for this option to become visible. Gitpod provide a browser extension for Chrome [here](https://chrome.google.com/webstore/detail/gitpod-dev-environments-i/dodmmooeoklaejobgleioelladacbeki) and for Firefox [here](https://addons.mozilla.org/en-US/firefox/addon/gitpod/)
 ### Hosting
 This website is hosted on [Github Pages](https://pages.github.com/). To deploy the live site, I followed these steps:
 1.	Navigate to the Github repository

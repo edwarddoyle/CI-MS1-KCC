@@ -13,9 +13,9 @@ a {
 }
 
 /* https://stackoverflow.com/questions/47269189/bootstrap-v4-css-class-for-pointer-cursor */
-.cursor-pointer{
+/* .cursor-pointer{
 	cursor: pointer;
-  }
+  } */
 
 @font-face {
     font-family: 'atkinson_hyperlegibleregular';
@@ -37,14 +37,14 @@ html {
 	color: #00202A;
 }
 
-/* Stack Overflow */
+/* CREDIT: Theodore K. 2016 Stackoverflow - https://stackoverflow.com/questions/38850419/how-to-create-multi-color-border-with-css  */
 .fancy-border {
     width: 100%;
     border-top: 1px solid;
 	border-image: linear-gradient(to right, red 25%, orange 25%, yellow 50%,green 50%, blue 75%, indigo 75%, violet 95%) 5;
 }
 
-/* Nav */
+/* Navigation & Navbar */
 .navbar-custom {
 	padding-top: 0.375rem;
 	padding-bottom: 0.375rem;
@@ -87,4 +87,114 @@ html {
 .navbar-custom button[aria-expanded='true'] .navbar-toggler-awesome.fas.fa-times{
 	display: inline-block;
 	margin-right: 0.125rem;
+}
+
+/* Home Section & Hero */
+
+.header {
+	background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('../images/hero.jpg') center center no-repeat;
+	background-size: cover;
+    height: 100%;
+    max-height: 100vh;
+}
+
+.header .header-content {
+	padding-top: 8rem;
+	padding-bottom: 2.125rem;
+	text-align: center;
+}
+
+/* .header .text-container {
+	margin-bottom: 3rem;
+} */
+
+.header h1 {
+	margin-bottom: 0.5rem;
+}
+/* 
+.header .p-large {
+	margin-bottom: 2rem;
+} */
+
+.header .btn{
+	margin-right: 0.5rem;
+	margin-bottom: 1.25rem;
+}
+
+
+/*  Intro / About Us     */
+
+.basic-1 {
+	padding-top: 6.5rem;
+	padding-bottom: 3rem;
+}
+
+.basic-1 .text-container {
+	margin-bottom: 3rem;
+}
+
+.basic-1 .section-title {
+	margin-bottom: 0.5rem;
+}
+
+.basic-1 h2 {
+	margin-bottom: 1.375rem;
+}
+
+.basic-1 .testimonial-author {
+	color: #484a46;
+}
+
+
+
+/* Media Queries */
+
+/* -- Desktop / Large Tablet -- */
+
+@media (min-width: 992px){
+    
+	.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2.5rem;
+	padding-left: 2.5rem;
+	border-right: thin solid #F5F5F5;
+	}
+
+	#navbar > ul > li:hover > a/*, #navbar > ul > li:hover > a.active*/{
+		font-size: 1.1em;
+    }
+    
+	#navbar > ul > li:hover > a.active{color: limegreen;
+    }
+    
+	#aboutLink:hover > a,
+	#aboutLink:hover > a > i,
+	#aboutLink > a:active{
+		color: limegreen;
+		background: linear-gradient(to right, transparent, 97%, white, limegreen);
+    }
+    
+	#eventsLink:hover > a, #eventsLink:hover > a > i, #eventsLink > a:active{
+		color: cornflowerblue;
+		background: linear-gradient(to right, transparent, 97%, white, cornflowerblue);
+    }
+    
+	#galleryLink:hover > a, #galleryLink:hover > a > i, #galleryLink > a:active {
+		color: violet;
+		background: linear-gradient(to right, transparent, 97%, white, violet);
+    }
+    
+	#contactLink:hover > a, #contactLink:hover > a > i, #contactLink > a:active{
+		color: indigo;
+		background: linear-gradient(to right, transparent, 97%, white, indigo);
+    }
+
+    /* .header .header-content {
+		padding-top: 14rem;
+		padding-bottom: 15rem;
+    }
+     */
+	.header .text-container {
+		margin-top: 6.5rem;
+	}
+    
 }

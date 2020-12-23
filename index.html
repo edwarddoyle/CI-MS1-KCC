@@ -10,7 +10,7 @@
 </head>
 <body>
     <!-- Nav -->
-    <nav class="navbar navbar-expand-lg sticky-top navbar-custom fancy-border">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-custom fancy-border">
         <a class="navbar-brand logo-image" href="index.html"><img src="assets/images/logolarge.svg"
                 alt="Kilmacow Community Cleanup Logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
@@ -68,12 +68,117 @@
                     </div> 
                 </div> 
                 <div class="col-sm-6">
-                    <div class="image-container">
-                        <img class="img-fluid" src="images/intro-office.jpg" alt="alternative">
+                    <div class="image-container shadow">
+                        <img class="img-fluid rounded mx-auto d-block" src="assets/images/intro.jpg" alt="alternative">
                     </div> 
                 </div>
             </div> 
           </section> 
+    </div>
+
+    <!-- EVENTS PAGE -->   
+    <div id="events" class="basic-1">
+        <section class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="text-container">
+                        <h2 class="display-4">Events</h2>
+                        <p>Throughout the year the Kilmacow Community Clean-up group organises various activities and
+                            events. These range from painting, bulb and flower planting, mini projects and litter picking.
+                            The aim of these events is to bring together members of the community from all walks of life, to
+                            promote inclusion and community spirit, all the while improving the aesthetic and cleanliness of
+                            the community. We encourage and invite people of all ages to attend.
+                        </p>
+                        <p>Each year in April, we participate in <a class="pLink" href="https://nationalspringclean.org/"
+                                target="_blank">The National Spring Clean</a>, a national clean up event in association with
+                            <a class="pLink" href="https://www.antaisce.org/" target="_blank">An Taisce</a>.The National
+                            Spring Clean is an annual event where communities come together for one day in April and
+                            organise a community clean-up day. Understanding that people have busy schedules and are
+                            sometimes unable to attend, <a class="pLink" href="https://www.antaisce.org/" target="_blank">An
+                                Taisce</a> launched the #2minutestreetclean campaign, where they encourage people to spend a
+                            couple of minutes cleaning around their residence or locality and posting an image on social
+                            media with the hashtag <a class="pLink"
+                                href="https://nationalspringclean.org/2minutestreetclean/"
+                                target="_blank">#2minutestreetclean</a>
+                        </p>
+                        <p>If you would like to be updated on any of the events or activities organised by the KCC then
+                            please<a href="https://www.facebook.com/" target="_blank"> like us on <span
+                                    class="facebook">Facebook</span></a>,<a href="https://www.instagram.com/"
+                                target="_blank"> add us on <span class="instagram">Instagram</span></a>,<a
+                                href="https://twitter.com/" target="_blank"> follow us on <span
+                                    class="twitter">Twitter</span></a>,<a href="#contact"> or subscribe to our <span
+                                    class="subscribe">newsletter</span></a>.
+                        </p>
+                    </div>
+                </div>
+<!--- Acknowledgement - The layout of the 'event cards' was inspired by mouse0270, 
+      however the code was not responsive so I replicated similar cards using bootstrap and custom code. 
+      Mouse0270's cards can be found here: https://bootsnipp.com/snippets/kMRrW-->   
+                <div class="col-sm-6" id="cardList">
+
+                    <div class="event covid19 shadow">
+                        <div class="event-item ">
+                            <i class="fas fa-virus mx-2"></i>
+                        </div>
+                        <div class="event-item">
+                            <div>In the interest of safety, we have had to make the difficult decision to suspend all upcoming events for the time being amid the seriousness of the COVID-19 pandemic.<!-- Each day is different from the last and we realize it’s been hard to keep up with the changing protocols and restrictions.-->
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="event shadow">
+                        <div class="event-item">
+                            <time datetime="2020-09-27">
+                                <span class="day">27</span>
+                                <span class="month">Sep</span>
+                            </time>
+                        </div>
+                        <div class="event-item">
+                            <h4>Daffodil Planting Day</h4>
+                            <div><span><i class="fas fa-map-marker-alt fa-fw"></i>Church Gates</span>
+                            </div>
+                            <div><span><i class="far fa-clock fa-fw"></i>01:00pm</span>
+                            </div>
+                            <div><span><i class="fas fa-info fa-fw"></i>All Welcome</span>
+                            </div>
+                            <div class="cursor-pointer" data-toggle="collapse" data-target="#collapseTwo"
+                                aria-expanded="true" aria-controls="collapseTwo"><span class="footnote">Click for more
+                                    info</span><i class="fas fa-angle-double-down mx-2"></i></div>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#cardList">
+                            <div class="card-body">
+                                    This year the planting text will take place
+                            </div>
+                        </div>
+                    </div>
+                    <div class="event shadow">
+                        <div class="event-item">
+                            <time datetime="2019-04-28">
+                                <span class="day">28</span>
+                                <span class="month">Apr</span>
+                            </time>
+                        </div>
+                        <div class="event-item">
+                            <h4>Village Spring Clean</h4>
+                            <div><span><i class="fas fa-map-marker-alt fa-fw"></i>Church Gates</span>
+                            </div>
+                            <div><span><i class="far fa-clock fa-fw"></i>12:00pm</span>
+                            </div>
+                            <div><span><i class="fas fa-info fa-fw"></i>All Welcome</span>
+                            </div>
+                            <div class="cursor-pointer" data-toggle="collapse" data-target="#collapseThree"
+                                aria-expanded="true" aria-controls="collapseThree"><span class="footnote">Click for more
+                                    info</span><i class="fas fa-angle-double-down mx-2"></i></div>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#cardList">
+                            <div class="card-body">
+This year the spring clean will take place 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

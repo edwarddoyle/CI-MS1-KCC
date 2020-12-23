@@ -13,9 +13,9 @@ a {
 }
 
 /* https://stackoverflow.com/questions/47269189/bootstrap-v4-css-class-for-pointer-cursor */
-/* .cursor-pointer{
+ .cursor-pointer{
 	cursor: pointer;
-  } */
+  }
 
 @font-face {
     font-family: 'atkinson_hyperlegibleregular';
@@ -126,7 +126,8 @@ html {
 
 .basic-1 {
 	padding-top: 6.5rem;
-	padding-bottom: 3rem;
+    padding-bottom: 3rem;
+    height: 100vh;
 }
 
 .basic-1 .text-container {
@@ -143,6 +144,113 @@ html {
 
 .basic-1 .testimonial-author {
 	color: #484a46;
+}
+
+/* Events Section & Events Cards */
+#cardList {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.event{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	border-radius: .25rem;
+
+    }
+
+    .shadow {	box-shadow: 22px 22px 10px -19px rgba(205,205,205,0.25);}
+
+.event-item:nth-child(1) {
+    order: 0;
+    flex: 0 0 6rem;
+    color: rgb(255, 255, 255);
+	background-color: rgb(197, 44, 102);
+	border-radius: .25rem;
+    padding: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+	}
+time {
+	display: flex;
+	flex-direction: column;
+}
+time > span:nth-child(1){
+	font-size: 2.5rem;
+}
+time > span:nth-child(2){
+	font-size: 1.5rem;
+}
+
+.event-item:nth-child(2) {
+	flex: 1 1 auto;
+	display: flex;
+    flex-direction: column;
+	padding-left: .5rem;
+	justify-content: space-between;
+}
+.event-item:nth-child(2) > div {
+	display: flex;
+    justify-content: space-between;
+}
+
+.event-item:nth-child(2) > div:nth-child(5) {
+	justify-content: flex-end;
+	color: rgb(197, 44, 102);
+}
+
+.footnote{
+	margin: 0;
+	text-align: right;
+	font-size: .5rem;
+	font-weight: lighter;
+	padding-top: .2rem;
+}
+
+/* John D. Jameson - 26/07/2018 - https://css-tricks.com/styling-underlines-web */
+.pLink {
+	text-decoration-line: underline;
+	text-decoration-style: dotted;
+	text-decoration-color: #CCC;
+}
+
+.pLink:hover {
+	text-decoration-line: underline;
+	text-decoration-style: dotted;
+	color: #CCC;
+}
+.facebook {
+	color: #1877f2;
+}
+.twitter {
+	color: #1da1f2;
+}
+.instagram {
+	color: #c32aa3;
+}
+.subscribe {
+	color: indigo;
+}
+.events {
+	color: cornflowerblue;
+}
+
+.covid19 {
+	flex-wrap: nowrap;
+}
+
+.event.covid19 > div:nth-child(1) {
+	order: 0;
+    flex: 0 1 auto;
+    background-color: #FFEE00 !important;
+    color: #000 !important;
+    border-radius: .25rem;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -195,6 +303,19 @@ html {
      */
 	.header .text-container {
 		margin-top: 6.5rem;
+    }
+    
+    .basic-1 {
+		padding-top: 6.875rem;
+	}
+	.basic-1 .text-container {
+		margin-bottom: 0;
 	}
     
+}
+
+@media (max-width: 768px) {
+.event{
+	margin-bottom: 1rem;
+}
 }

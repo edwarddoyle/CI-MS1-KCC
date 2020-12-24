@@ -127,7 +127,7 @@ html {
 .basic-1 {
 	padding-top: 6.5rem;
     padding-bottom: 3rem;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .basic-1 .text-container {
@@ -253,6 +253,12 @@ time > span:nth-child(2){
     align-items: center;
 }
 
+/* Gallery Section */
+.fa-angle-left, .fa-angle-right {
+    font-size: 2rem;
+    color: #00202A;
+}
+
 
 
 /* Media Queries */
@@ -306,7 +312,8 @@ time > span:nth-child(2){
     }
     
     .basic-1 {
-		padding-top: 6.875rem;
+        padding-top: 6.875rem;
+        height: 100vh;
 	}
 	.basic-1 .text-container {
 		margin-bottom: 0;

@@ -112,12 +112,16 @@ html {
 	margin-bottom: 1.25rem;
 }
 
+.btn-toolbar{
+  justify-content: center;
+}​
+
 /*  Intro / About Us     */
 
 .basic-1 {
 	padding-top: 6.5rem;
     padding-bottom: 3rem;
-}
+   }
 
 .basic-1 .text-container {
 	margin-bottom: 3rem;
@@ -308,11 +312,6 @@ form {
 		background: linear-gradient(to right, transparent, 97%, white, indigo);
     }
 
-    /* .header .header-content {
-		padding-top: 14rem;
-		padding-bottom: 15rem;
-    }
-     */
 	.header .text-container {
 		margin-top: 6.5rem;
     }
@@ -331,4 +330,9 @@ form {
 .event{
 	margin-bottom: 1rem;
 }
+    
+    .basic-1 {
+        padding-top: 6.875rem;
+        padding-bottom: 3rem;
+	}
 }

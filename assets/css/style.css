@@ -90,7 +90,6 @@ html {
 }
 
 /* Home Section & Hero */
-
 .header {
 	background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('../images/hero.jpg') center center no-repeat;
 	background-size: cover;
@@ -104,46 +103,28 @@ html {
 	text-align: center;
 }
 
-/* .header .text-container {
-	margin-bottom: 3rem;
-} */
-
 .header h1 {
 	margin-bottom: 0.5rem;
 }
-/* 
-.header .p-large {
-	margin-bottom: 2rem;
-} */
 
 .header .btn{
 	margin-right: 0.5rem;
 	margin-bottom: 1.25rem;
 }
 
-
 /*  Intro / About Us     */
 
 .basic-1 {
 	padding-top: 6.5rem;
     padding-bottom: 3rem;
-    /* height: 100vh; */
 }
 
 .basic-1 .text-container {
 	margin-bottom: 3rem;
 }
 
-.basic-1 .section-title {
-	margin-bottom: 0.5rem;
-}
-
 .basic-1 h2 {
 	margin-bottom: 1.375rem;
-}
-
-.basic-1 .testimonial-author {
-	color: #484a46;
 }
 
 /* Events Section & Events Cards */
@@ -153,15 +134,16 @@ html {
 	justify-content: space-evenly;
 }
 
-.event{
+.event {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 	border-radius: .25rem;
+}
 
-    }
-
-    .shadow {	box-shadow: 22px 22px 10px -19px rgba(205,205,205,0.25);}
+.shadow {	
+    box-shadow: 22px 22px 10px -19px rgba(205,205,205,0.25);
+}
 
 .event-item:nth-child(1) {
     order: 0;
@@ -172,7 +154,8 @@ html {
     padding: 1.5rem;
     text-align: center;
     text-transform: uppercase;
-	}
+}
+    
 time {
 	display: flex;
 	flex-direction: column;
@@ -233,9 +216,6 @@ time > span:nth-child(2){
 .subscribe {
 	color: indigo;
 }
-.events {
-	color: cornflowerblue;
-}
 
 .covid19 {
 	flex-wrap: nowrap;
@@ -259,6 +239,35 @@ time > span:nth-child(2){
     color: #00202A;
 }
 
+/* Contact */
+/* .form-2 .list-unstyled {
+	margin-bottom: 2.25rem;
+	font-size: 1rem;
+	line-height: 1.625rem;
+} */
+.contact-list {
+    list-style: none;
+
+}
+.contact-list li {
+	margin-bottom: 1rem;
+}
+.contact-list .fas,
+.contact-list .fab {
+	margin-right: 0.5rem;
+	font-size: 0.875rem;
+	line-height: 0;
+}
+
+#contact {
+	background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('../images/map.jpg')no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+form {
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+}
+
 
 
 /* Media Queries */
@@ -275,9 +284,6 @@ time > span:nth-child(2){
 
 	#navbar > ul > li:hover > a/*, #navbar > ul > li:hover > a.active*/{
 		font-size: 1.1em;
-    }
-    
-	#navbar > ul > li:hover > a.active{color: limegreen;
     }
     
 	#aboutLink:hover > a,

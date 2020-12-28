@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- delete this python3 -m http.server-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -63,8 +64,8 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="text-container">
-                        <div class="section-title">About Us</div>
-                        <h2>KCC Header</h2>
+                        <h2 class="display-4">About</h2>
+                        <hr class="fancy-border"/>
                         <p>KCC About Us Text</p>
 
                     </div> 
@@ -85,6 +86,7 @@
                 <div class="col-sm-6">
                     <div class="text-container">
                         <h2 class="display-4">Events</h2>
+                        <hr class="fancy-border"/>
                         <p>Throughout the year the Kilmacow Community Clean-up group organises various activities and
                             events. These range from painting, bulb and flower planting, mini projects and litter picking.
                             The aim of these events is to bring together members of the community from all walks of life, to
@@ -117,7 +119,6 @@
       however the code was not responsive so I replicated similar cards using bootstrap and custom code. 
       Mouse0270's cards can be found here: https://bootsnipp.com/snippets/kMRrW -->   
                 <div class="col-sm-6" id="cardList">
-
                     <div class="event covid19 shadow">
                         <div class="event-item ">
                             <i class="fas fa-virus mx-2"></i>
@@ -194,7 +195,8 @@ This year the spring clean will take place
                 <div class="col-sm-6">
                     <div class="text-container">
                         <h2 class="display-4">Gallery</h2>
-                        <p>KCC About Us Text</p>
+                        <hr class="fancy-border"/>
+                        <p>Photos of recent events</p>
                         </div>
                         </div>
 
@@ -242,7 +244,7 @@ This year the spring clean will take place
          </div>
 
          <!-- Desktop Gallery with Carousel -->
-         <div class="container mt-10">
+         <div class="container mt-3">
             <div id="image-slide" class="carousel slide d-none d-lg-block" data-ride="carousel">
                <ol class="carousel-indicators">
                   <li data-target="#image-slide" data-slide-to="0" class="active"></li>
@@ -321,7 +323,68 @@ This year the spring clean will take place
       </div>
  
  
- 
+        <!-- Contact -->
+    <div id="contact" class="basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="text-container">
+                        <h2 class="display-4">Contact</h2>
+                        <hr class="fancy-border"/>
+                        <p>You can stop by our office for a cup of coffee and just use the contact form below for any questions and inquiries</p>
+                        <ul class="contact-list">
+                            <li><i class="fas fa-map-marker-alt"></i>Upper Kilmacow, Co. Kilkenny</li>
+                            <li><i class="fas fa-phone"></i><a href="tel:0035387652840">+353 87 652 8409</a></li>
+                            <li><i class="fas fa-envelope"></i><a href="mailto:office@aria.com">office@aria.com</a></li>
+                        </ul>
+                        <!-- <h3>Social Media</h3> -->
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                 <i class="fab fa-facebook-f fa-stack-1x facebook"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fab fa-twitter fa-stack-1x twitter"></i>
+                            </a>
+                        </span>
+                         <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fab fa-instagram fa-stack-1x instagram"></i>
+                            </a>
+                        </span>
+                        </div> 
+                </div> 
+                <div class="col-sm-6">
+                    
+                    <!-- Contact Form -->
+                    <form class="shadow p-5">
+                        <div class="form-group">
+                            <label for="cname">Name</label>  
+                            <input type="text" class="form-control" id="cname" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="label-control" for="cemail">Email</label>
+                            <input type="email" class="form-control" id="cemail" required>                            
+                        </div>
+                        <div class="form-group">
+                            <label class="label-control" for="cmessage">Your message</label>
+                            <textarea class="form-control" id="cmessage"></textarea>                            
+                        </div>
+                        <div class="form-group">                            
+                            <input type="radio" id="newsletter" value="newsletter">
+                            <label class="label-control" for="newsletter">Subscribe to newsletter</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>             
+
+                </div>
+            </div>
+        </div>
+    </div>
  
  
 

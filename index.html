@@ -13,6 +13,10 @@
 </head>
 
 <body>
+<!-- Accessibility controls for screen reader -->
+<div hidden>
+  <span id="new-window-message">Opens an external site in a new window</span>  
+</div>
 <!-- Nav -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-custom fancy-border">
         <a class="navbar-brand logo-image" href="index.html"><img src="assets/images/logolarge.svg"
@@ -103,25 +107,25 @@
                             the community. We encourage and invite people of all ages to attend.
                         </p>
                         <p>Each year in April, we participate in <a class="pLink"
-                                href="https://nationalspringclean.org/" target="_blank">The National Spring Clean</a>, a
+                                href="https://nationalspringclean.org/" target="_blank" rel="noopener" aria-describedby="new-window-message">The National Spring Clean</a>, a
                             national clean up event in association with
-                            <a class="pLink" href="https://www.antaisce.org/" target="_blank">An Taisce</a>.The National
+                            <a class="pLink" href="https://www.antaisce.org/" target="_blank" rel="noopener" aria-describedby="new-window-message">An Taisce</a>.The National
                             Spring Clean is an annual event where communities come together for one day in April and
                             organise a community clean-up day. Understanding that people have busy schedules and are
                             sometimes unable to attend, <a class="pLink" href="https://www.antaisce.org/"
-                                target="_blank">An
+                                target="_blank" rel="noopener" aria-describedby="new-window-message">An
                                 Taisce</a> launched the #2minutestreetclean campaign, where they encourage people to
                             spend a
                             couple of minutes cleaning around their residence or locality and posting an image on social
                             media with the hashtag <a class="pLink"
                                 href="https://nationalspringclean.org/2minutestreetclean/"
-                                target="_blank">#2minutestreetclean</a>
+                                target="_blank" rel="noopener" aria-describedby="new-window-message">#2minutestreetclean</a>
                         </p>
                         <p>If you would like to be updated on any of the events or activities organised by the KCC then
-                            please<a href="https://www.facebook.com/" target="_blank"> like us on <span
+                            please<a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-describedby="new-window-message"> like us on <span
                                     class="facebook">Facebook</span></a>,<a href="https://www.instagram.com/"
-                                target="_blank"> add us on <span class="instagram">Instagram</span></a>,<a
-                                href="https://twitter.com/" target="_blank"> follow us on <span
+                                target="_blank" rel="noopener" aria-describedby="new-window-message"> add us on <span class="instagram">Instagram</span></a>,<a
+                                href="https://twitter.com/" target="_blank" rel="noopener" aria-describedby="new-window-message"> follow us on <span
                                     class="twitter">Twitter</span></a>,<a href="#contact"> or subscribe to our <span
                                     class="subscribe">newsletter</span></a>.
                         </p>
@@ -213,14 +217,13 @@
 
                 <!-- Mobile & Tablet Gallery -->
                 <div class="static-gallery container d-lg-none">
-                    <img src="assets/images/gallery/1.jpg" class="img-fluid d-block w-100" alt="Trip briefing" />
-                    <img src="assets/images/gallery/2.jpg" class="img-fluid d-block w-100" alt="Irish meadows" />
-                    <img src="assets/images/gallery/3.jpg" class="img-fluid d-block w-100" alt="Forest drive" />
-                    <img src="assets/images/gallery/4.jpg" class="img-fluid d-block w-100"
-                        alt="Land Rover in a Forest" />
-                    <img src="assets/images/gallery/5.jpg" class="img-fluid d-block w-100" alt="Connemara sheep" />
-                    <img src="assets/images/gallery/6.jpg" class="img-fluid d-block w-100" alt="Connemara sheep" />
-                    <img src="assets/images/gallery/7.jpg" class="img-fluid d-block w-100" alt="Connemara sheep" />
+                    <img src="assets/images/gallery/1.jpg" class="img-fluid d-block w-100" alt="Volunteers getting materials"/>
+                    <img src="assets/images/gallery/2.jpg" class="img-fluid d-block w-100" alt="Volunteer Group Photo"/>
+                    <img src="assets/images/gallery/3.jpg" class="img-fluid d-block w-100" alt="Various volunteer photos"/>
+                    <img src="assets/images/gallery/4.jpg" class="img-fluid d-block w-100" alt="Large group of volunteers"/>
+                    <img src="assets/images/gallery/5.jpg" class="img-fluid d-block w-100" alt="Volunteers group photo"/>
+                    <img src="assets/images/gallery/6.jpg" class="img-fluid d-block w-100" alt="Volunteers work on derilict building"/>
+                    <img src="assets/images/gallery/7.jpg" class="img-fluid d-block w-100" alt="Volunteers putting on visibility vests"/>
                 </div>
 
                 <!-- Desktop Gallery with Carousel -->
@@ -242,27 +245,27 @@
                             </div>
                             <div class="carousel-item">
                                 <img src="assets/images/gallery/2.jpg" class="d-block w-75 mx-auto shadow"
-                                    alt="Volunteer Group Photo" />
+                                    alt="Volunteer Group Photo"/>
                             </div>
                             <div class="carousel-item">
                                 <img src="assets/images/gallery/3.jpg" class="d-block w-75 mx-auto shadow"
-                                    alt="Various volunteer photos" />
+                                    alt="Various volunteer photos"/>
                             </div>
                             <div class="carousel-item">
                                 <img src="assets/images/gallery/4.jpg" class="d-block w-75 mx-auto shadow"
-                                    alt="Large group of volunteers" />
+                                    alt="Large group of volunteers"/>
                             </div>
                             <div class="carousel-item">
                                 <img src="assets/images/gallery/5.jpg" class="d-block w-75 mx-auto shadow"
-                                    alt="Connemara sheep" />
+                                    alt="Volunteers group photo"/>
                             </div>
                             <div class="carousel-item">
                                 <img src="assets/images/gallery/6.jpg" class="d-block w-75 mx-auto shadow"
-                                    alt="Connemara sheep" />
+                                    alt="Volunteers work on derilict building"/>
                             </div>
                             <div class="carousel-item">
                                 <img src="assets/images/gallery/7.jpg" class="d-block w-75 mx-auto shadow"
-                                    alt="Connemara sheep" />
+                                    alt="Volunteers putting on visibility vests"/>
                             </div>
                         </div>
                         <!-- Acknowledgement: change carousel indicators to use fontawesome icons - Unison Tek 12/06/18 stackoverflow https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel -->
@@ -290,8 +293,7 @@
                         <hr class="fancy-border" />
                         <a class="navbar-brand logo-image mb-4" href="index.html"><img src="assets/images/logolarge.svg"
                                 alt="Kilmacow Community Cleanup Logo"></a>
-                        <p>You can stop by our office for a cup of coffee and just use the contact form below for any
-                            questions and inquiries</p>
+                        <p>Feel free to get in touch using any of the methods below, or please fill out the contact form and someone will be in touch</p>
                         <ul class="contact-list">
                             <li><i class="fas fa-map-marker-alt purple-txt"></i>Upper Kilmacow, Co. Kilkenny</li>
                             <li><i class="fas fa-phone purple-txt"></i><a href="tel:00000000">+353 12 345 6789</a></li>
@@ -300,19 +302,19 @@
                         </ul>
                         <span class="fa-stack">
                             <a href="https://www.facebook.com" target="_blank"
-                                aria-label="facebook page opens in a new window">
+                                rel="noopener" aria-describedby="new-window-message">
                                 <i class="fab fa-facebook-f fa-stack-1x facebook"></i>
                             </a>
                         </span>
                         <span class="fa-stack">
                             <a href="https://www.twitter.com" target="_blank"
-                                aria-label="twitter page opens in a new window">
+                                rel="noopener" aria-describedby="new-window-message">
                                 <i class="fab fa-twitter fa-stack-1x twitter"></i>
                             </a>
                         </span>
                         <span class="fa-stack">
                             <a href="https://www.instagram.com" target="_blank"
-                                aria-label="instagram page opens in a new window">
+                                rel="noopener" aria-describedby="new-window-message">
                                 <i class="fab fa-instagram fa-stack-1x instagram"></i>
                             </a>
                         </span>
@@ -337,7 +339,7 @@
                             <label class="label-control" for="newsletter">Subscribe to newsletter</label>
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" class="btn btn-outline-primary">Submit</button>
                         </div>
                     </form>
                 </div>

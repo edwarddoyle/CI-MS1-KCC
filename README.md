@@ -199,8 +199,7 @@ The website is a single page website. Upon navigating to the site, the visitor w
 >* The footer should sit below the contact section
 >* It should contain a basic copyright notification
 
-
-Features to implement:
+### Features to implement:
 * Add to calendar button on events cards
 * Contact form backend
 * Cookie notification pop up and privacy policy 

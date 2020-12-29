@@ -53,6 +53,7 @@ html {
 }
 
 :root {
+    --mainfnt-clr:#00202A ;
     --about-clr: #00ff00;
     --events-clr: #6495ed;
     --gallery-clr: #c52c66;
@@ -149,8 +150,7 @@ html {
 }
 
 .basic-1 {
-	padding-top: 6.875rem;
-    padding-bottom: 3rem;
+	padding-top: 5rem;
    } 
 
 .basic-1 .text-container {

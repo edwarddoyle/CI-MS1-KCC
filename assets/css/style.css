@@ -68,10 +68,10 @@ html {
     color: var(--gallery-clr);
 }
 .blue-bg {
-    background-color: var(--events-clr);
+    background-color: #0071EB;
 }
 .blue-txt {
-    color: var(--events-clr);
+    color: #0071EB;
 }
 .purple-txt {
     color: var(--gallery-clr);
@@ -215,6 +215,10 @@ time > span:nth-child(2){
 	display: flex;
 }
 
+.event-item:nth-child(2) > h3{
+    font-size: 1.25rem;
+}
+
 .event-item:nth-child(2) > div:nth-child(5) {
 	justify-content: flex-end;
 }
@@ -237,10 +241,15 @@ time > span:nth-child(2){
 	color: #CCC;
 }
 .facebook {
-	color: #1877f2;
+	color: #0071EB;
+}
+
+.btn-outline-primary {
+    Color: #0071EB;
+    border-color: #0071EB;
 }
 .twitter {
-	color: #1da1f2;
+	color: #247CB2;
 }
 .instagram {
 	color: #c32aa3;

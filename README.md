@@ -208,6 +208,142 @@ The website is a single page website. Upon navigating to the site, the visitor w
 
 ## Testing
 
+>The following devices / browsers were used by me for testing. Friends & family used a variety of devices to view / test the site.
+>* Desktop
+>   * Firefox 82
+>   * Chrome 87
+>   * Edge 87
+>* Android
+>   * Chrome 87
+>   * Chrome Dev 88
+>   * Chrome Canary 89
+>   * Firefox 84
+>   * DDG 5.72
+>* iOS
+>   * Safari 13
+>   * Safari 14
+>   * Safari 15
+>
+>I also used [LambdaTest](https://www.lambdatest.com/) to simulate cross browser Testing
+>
+> Testing was seperated into 2 categories; user testing & functional testing
+
+### User Testing
+
+Testing was carried out on the site using the following parameters:
+UX & Navigation, Responsiveness, Accessibility, Scope / Goals and Validation.
+
+#### UX & Navigation
+
+| Success Criteria                     | Test Method                                                  | Result                    | Comment                                   | Solution                                 |
+| :----------------------------------- | ------------------------------------------------------------ | ------------------------- | ----------------------------------------- | ---------------------------------------- |
+| All links navigate to correct target | Manual checking of links                                     | PASS                      | -                                         |                                          |
+| External site links open in new tab  | Manual checking of links                                     | PASS                      | -                                         |                                          |
+| Website is easy to navigate          | Friends & family visited the website and reported any potential navigation issues | PASS with recommendations | Centre navigation links on mobile browser | Updated CSS to accommodate user requests |
+|                             |                                                              |        |                                                              |                                                              |
+
+#### Responsiveness
+
+| Success Criteria                                             | Test Method                                                  | Result | Comment              | Solution                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | -------------------- | ------------------------------------------------------------ |
+| Website content displays appropriately across multiple browsers. Images scale correctly, Containers wrap correctly, Fonts scale correctly | Manual testing on multiple devices and browsers. Friends & family visited the website and reported any potential responsiveness issues.Manual testing on multiple devices and browsers.  Also used [LambdaTest](https://www.lambdatest.com/) & [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly) | PASS   | Navbar shaking issue | Changed navbar css to fixed-top. Ref: [Stackoverflow Topic](https://stackoverflow.com/questions/63520844/sticky-navbar-glitchy-shaky-when-resized-on-scroll-bootstrap) |
+|                             |                                                              |        |                                                              |                                                              |
+
+#### Accessibility
+
+| Success Criteria            | Test Method                                                  | Result | Comment                                                      | Solution                                                     |
+| --------------------------- | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Colour Contrast             | Colours checked on [Color a11y](https://color.a11y.com/Contrast/) | PASS   | Submit button displayed low contrast errors.                 | Updated submit button CSS                                    |
+| Readability                 | Friends & family visited the website and reported any potential readability issues. Website content checked for spelling and grammar issues, MS Word | PASS   | Justify text, although looked visually appealing made the text blocks difficult to read | Update text justification to accommodate testers recommendations |
+| Overall accessibility tests | Tested on [Wave](https://wave.webaim.org/) Accessiblity testing |        |                                                              |                                                              |
+|                             |                                                              |        |                                                              |                                                              |
+
+#### Scope / Goals
+
+| Success Criteria                                             | Test Method                                                  | Result | Comment                                                      | Solution |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ | -------- |
+| Form controls: Required form controls in place               | Manual Testing                                               | PASS   | -                                                            | -        |
+| Colour scheme matches client’s requirements                  | Client Testing                                               | PASS   | -                                                            | -        |
+| The website language and message matches what the client requested | Client proof read the content                                | PASS   | -                                                            | -        |
+| User stories fulfilled                                       | Family and friends visited the website and provided feedback. | PASS   | -                                                            | -        |
+| Overall Client Satisfaction                                  | Client Feedback                                              | PASS   | The client commented that the website went above and beyond what they expected. | -        |
+|                                                              |                                                              |        |                                                              |          |
+
+#### Validation
+
+| Success Criteria     | Test Method                                              | Result | Comment | Solution |
+| -------------------- | -------------------------------------------------------- | ------ | ------- | -------- |
+| HTML code validation | [W3C HTML Validator](https://validator.w3.org)           | PASS   | -       | -        |
+| CSS code validation  | [W3C CSS Validator](https://jigsaw.w3.org/css-validator) | PASS   | -       | -        |
+|                      |                                                          |        |         |          |
+
+### Functional Testing
+
+#### Navbar
+
+| Success Criteria                                    | Method                                                 | Result | Device           |
+| --------------------------------------------------- | ------------------------------------------------------ | ------ | ---------------- |
+| Navbar fixed to top of browser  across all sections | Scroll, navigate through website                       | PASS   | Desktop & Mobile |
+| Navbar logo links to index.html                     | Logo clicked                                           | PASS   | Desktop & Mobile |
+| Navbar links change colour size  when hover         | Mouse hovered over links                               | PASS   | Desktop          |
+| Navbar links navigate to the  relevant page section | Each link clicked                                      | PASS   | Desktop & Mobile |
+| Navbar links collapse to dropdown  menu             | Page opened on mobile device /  browser window resized | PASS   | Mobile           |
+| Dropdown menu appears / hides                       | Click hamburger / close menu icon link                 | PASS   | Mobile           |
+| Dropdown closes on each link click                  | Click navbar links                                     | PASS   | Mobile           |
+|                                                     |                                                        |        |                  |
+
+#### Home Section
+
+| Success Criteria                                             | Method              | Result | Device           |
+| ------------------------------------------------------------ | ------------------- | ------ | ---------------- |
+| Call to action buttons navigate to  the relevant page section | Each button Clicked | PASS   | Desktop & Mobile |
+|                                                              |                     |        |                  |
+
+#### About Section
+
+| Success Criteria                        | Method      | Result | Device           |
+| --------------------------------------- | ----------- | ------ | ---------------- |
+| Links open in new browser window /  tab | Click links | PASS   | Desktop & Mobile |
+|                                         |             |        |                  |
+
+#### Events Section
+
+| Success Criteria                        | Method            | Result | Device            |
+| --------------------------------------- | ----------------- | ------ | ----------------- |
+| Links open in  new browser window / tab | Click links       | PASS   | Desktop &  Mobile |
+| Event cards expand and collapse         | Click event cards | PASS   | Desktop &  Mobile |
+|                                         |                   |        |                   |
+
+#### Gallery Section
+
+| Success Criteria                                        | Method                                                 | Result | Device  |
+| ------------------------------------------------------- | ------------------------------------------------------ | ------ | ------- |
+| Carousel auto rotates                                   | Navigate to section and wait                           | PASS   | Desktop |
+| Carousel controls change picture                        | Click each carousel control                            | PASS   | Desktop |
+| Carousel indicators identify image  position in gallery | Click carousel controls / wait for  carousel to change | PASS   | Desktop |
+| Carousel unavailable on mobile                          | Resize browser / open section on mobile device         | PASS   | Mobile  |
+|                                                         |                                                        |        |         |
+
+#### Contact Section
+
+| Success Criteria                                             | Method                                                       | Result | Device            |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ----------------- |
+| Logo links to  index.html                                    | Logo clicked                                                 | PASS   | Desktop &  Mobile |
+| Phone link opens App                                         | Phone link clicked                                           | PASS   | Desktop &  Mobile |
+| Email link opens App                                         | Email link clicked                                           | PASS   | Desktop &  Mobile |
+| Social links open in new tab                                 | Social links clicked                                         | PASS   | Desktop &  Mobile |
+| Contact Form Tests                                           | -                                                            | -      | -                 |
+| Name field required; form should  issue warning              | Leave name field blank and click  submit                     | PASS   | Desktop &  Mobile |
+| Email field required; form should  issue warning             | Leave email field blank and click  submit                    | PASS   | Desktop &  Mobile |
+| Email must be in email format, ie.  Contain @ symbol and domain address | Enter email without @ symbol, Enter email with @ symbol without domain | PASS   | Desktop &  Mobile |
+| Radio button highlights                                      | Check radio button                                           | PASS   | Desktop &  Mobile |
+|                                                              |                                                              |        |                   |
+
+### Open issues
+
+Some open issues in regards to ARIA and a11y are present throughout the site. I aim to have these issues fixed once my knowledge and skills improve.
+Screenshots of test results are available [here](assets/docs/tests.pdf)
+
 [Back to Top](<#table-of-contents>)
 
 ## Technologies
@@ -288,6 +424,7 @@ All text content was written by myself with approval from The Kilmacow Community
 * [Unison Tek 12/06/18 stackoverflow](https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel) - change default carousel indicators to use fontawesome icons
 * [Theodore K. 09/08/2016 stackoverflow](https://stackoverflow.com/questions/38850419/how-to-create-multi-color-border-with-css) - multi-colour border
 * [John D. Jameson 26/07/2018 css-tricks](https://css-tricks.com/styling-underlines-web) - styling links on the web
+* [Scott Vinkle 13/04/2018 Medium](https://medium.com/@svinkle/why-let-someone-know-when-a-link-opens-a-new-window-8699d20ed3b1) - a11y tips for screen readers
 
 ### Acknowledgements
 > I would like to thank my mentors Seun Owonikoko & Rohit Sharma for their advice and guidance

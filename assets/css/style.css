@@ -195,7 +195,7 @@ html {
     
 time {
 	display: flex;
-	flex-direction: column;
+    flex-direction: column;
 }
 time > span:nth-child(1){
 	font-size: 2.5rem;

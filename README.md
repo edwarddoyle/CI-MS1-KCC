@@ -74,7 +74,7 @@ Windows / Linux : &nbsp; ![ctrl](assets/docs/ctrl.png)  &nbsp; + &nbsp; 'click'
 
 * Clean UI / UX for simple navigation. Visitors are from a traditionally non-web-savvy demographic.
 
-* Communicate effectivley the importance of 'Pride of Place' and the goals of the KCC
+* Communicate effectively the importance of 'Pride of Place' and the goals of the KCC
 
 >#### Customer goals
 
@@ -89,7 +89,7 @@ Windows / Linux : &nbsp; ![ctrl](assets/docs/ctrl.png)  &nbsp; + &nbsp; 'click'
 [Back to Top](<#table-of-contents>)
 
 ### Scope
-* The client has requested a 'basic' brochure style static website with a clean unclutered layout. 
+* The client has requested a 'basic' brochure style static website with a clean uncluttered layout. 
 * The client has requested I take full ownership of the development and maintenance of the site. 
 * As my coding skills develop the future features will be added to the site.
 
@@ -342,7 +342,7 @@ UX & Navigation, Responsiveness, Accessibility, Scope / Goals and Validation.
 ### Open issues
 
 Some open issues in regards to ARIA and a11y are present throughout the site. I aim to have these issues fixed once my knowledge and skills improve.
-Screenshots of test results are available [here](assets/docs/tests.pdf)
+Screenshots of test results are available [here](assets/docs/tests.pdf). The submit on the contact form also does not work. This will be added once the backend for the site is coded.
 
 [Back to Top](<#table-of-contents>)
 
